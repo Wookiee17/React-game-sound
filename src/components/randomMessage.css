@@ -1,0 +1,22 @@
+.text
+{
+    position: absolute;
+    left: 35%;
+    top: -100%;
+    z-index: 1;
+    color: rgb(62, 18, 218);
+}
+.text1
+{
+    position: absolute;
+    left: 35%;
+    top: 23%;
+    z-index: -1;
+    color: rgb(62, 18, 218);
+}
+.feature
+{
+    margin-top: 15%;
+    z-index: 1;
+    color: aqua;
+}

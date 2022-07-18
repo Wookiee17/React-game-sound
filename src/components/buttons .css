@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Press+Start+2P&family=Rubik+Moonrocks&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rubik+Moonrocks&display=swap');
+div {
+ 
+    text-align: left;
+    
+  }
+  
+  .flex-container {
+    display: flex;
+   
+    
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+
+.flex-child1 {
+  width: 34%;
+ margin-top: 35%;
+margin-left:11%;
+
+
+}  
+
+.flex-child {
+  
+  margin-top: 37%;
+  margin-left: -10%;
+  width: 32%;
+ 
+}  
+.flex-child2 {
+  width: 34%;
+  margin-top: 23.5%;
+  margin-left: -17%;
+} 
+.font{
+  color: rgb(185, 24, 24);
+                                                
+}
+.name{
+
+  
+  font-size:3vw;
+  text-align: center;
+  color: rgb(29, 13, 179);
+
+}
+.sub{
+ 
+  font-weight: bolder;
+color: rgb(11, 56, 170);
+text-align: center;
+font-size: x-large;
+}
+
+
+  #matrix { 
+    position: static;
+    margin: 0 auto;
+    margin: 10% 66%;
+    margin-top: 11%;
+  }
+  
+  #matrix tr, td {
+    padding: 2px;
+   
+    
+  }
+  
+  #matrix button {
+    background-color:transparent;
+    height: "*";
+    
+    
+    font-family: helvetica;
+    
+  }
+  
+

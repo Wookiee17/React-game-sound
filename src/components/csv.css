@@ -1,0 +1,183 @@
+
+.button-33 {
+  background-color: #c2fbd7;
+  position: absolute; /* or absolute */
+  top: 60%;
+  left: 30%;
+  font-weight: bold;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: rgb(16, 62, 213);
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-33:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+
+
+#tudo {width: 750px;
+  
+		height: 580px;
+		margin: auto;
+		margin-top: 20px;
+    	border-radius: 40px;
+    	-webkit-animation-name: animacao1;
+		-webkit-animation-duration: 1s;
+		-webkit-animation-timing-function:  linear;
+		-webkit-animation-iteration-count: infinite;
+		-webkit-animation-direction: alternate;
+
+		-moz-animation-name: animacao1;
+		-moz-animation-duration: 1s;
+		-moz-animation-timing-function:  linear;
+		-moz-animation-iteration-count: infinite;
+		-moz-animation-direction: alternate; 
+
+		animation-name: animacao1;
+		animation-duration: 1s;
+		animation-timing-function:  linear;
+		animation-iteration-count: infinite;
+		animation-direction: alternate;}
+
+
+.gameover {width:750px;
+			height: auto;
+			padding-top: 60px;
+			background: none;}
+
+.gameover p {margin-top: 0px;
+			margin-bottom: 0px;
+			font-size: 160px;
+			font-family: 'Black Ops One', cursive;
+			line-height: 120px;
+			text-align: center;
+			text-shadow: 5px 5px #000000;
+			color: #ee4d52;}
+
+.continue	{width: 750px;
+			height: auto;
+			padding-top: 40px;}
+
+.continue p {margin-top: 0px;
+			margin-bottom: 0px;
+			text-align: center;
+			font-size: 40px;
+			font-weight: bold;
+			font-family: corbel;
+			color: #ffffff;
+			text-shadow: 2.5px 2.5px #000000;}
+
+.opcoes {width: 550px;
+		height: auto;
+		padding-top: 50px;
+		margin: auto;}
+
+.yes a {text-align: center;
+		font-size: 30px;
+		font-weight: bold;
+		font-family: corbel;
+		color: #ffffff;
+		text-decoration: none;
+		text-shadow: 2.5px 2.5px #000000;
+		padding: 25px 110px 25px 110px;
+    border: 1px solid #000000;
+		border-radius: 20px;
+		background: #006400;
+		margin-right: 30px;
+		float: left;}
+
+
+
+@-webkit-keyframes animacao2 { from {-webkit-transform: scale(1);} 
+								to {-webkit-transform: scale(1.2);} }
+
+@-moz-keyframes animacao2 { from {-moz-transform: scale(1);} 
+								to {-moz-transform: scale(1.1);} }
+
+@keyframes animacao2 { from {transform: scale(1);} 
+								to {transform: scale(1.1);} }
+
+
+.yes a:hover {-webkit-animation-name: animacao2;
+		-webkit-animation-duration: 0.8s;
+		-webkit-animation-timing-function:  linear;
+		-webkit-animation-iteration-count: infinite;
+		-webkit-animation-direction: alternate;
+
+		-moz-animation-name: animacao2;
+		-moz-animation-duration: 0.8s;
+		-moz-animation-timing-function:  linear;
+		-moz-animation-iteration-count: infinite;
+		-moz-animation-direction: alternate;
+
+		animation-name: animacao2;
+		animation-duration: 0.8s;
+		animation-timing-function:  linear;
+		animation-iteration-count: infinite;
+		animation-direction: alternate;}
+
+
+
+.no a {text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: corbel;
+	color: #ffffff;
+	text-decoration: none;
+	text-shadow: 1.5px 1.5px #FB3733;
+	padding: 25px 100px 25px 100px;
+	border-radius: 20px;
+	background: #000000;
+	float: left;}
+
+
+@-webkit-keyframes animacao3 { 0% {-webkit-transform: translate(-5px,0px);} 
+							   25% {-webkit-transform: translate(-2.5px, 0px);}
+							   50% {-webkit-transform: translate(0px, 0px);}
+							   75% {-webkit-transform: translate(2.5px, 0px);}
+							   100% {-webkit-transform: translate(5px, 0px);} }
+
+@-moz-keyframes animacao3 { 0% {-moz-transform: translate(-5px,0px);} 
+							   25% {-moz-transform: translate(-2.5px, 0px);}
+							   50% {-moz-transform: translate(0px, 0px);}
+							   75% {-moz-transform: translate(2.5px, 0px);}
+							   100% {-moz-transform: translate(5px, 0px);} }
+
+@keyframes animacao3 { 0% {transform: translate(-5px,0px);} 
+							   25% {transform: translate(-2.5px, 0px);}
+							   50% {transform: translate(0px, 0px);}
+							   75% {transform: translate(2.5px, 0px);}
+							   100% {transform: translate(5px, 0px);} }
+
+
+.no a:hover {-webkit-animation-name: animacao3;
+		-webkit-animation-duration: 0.15s;
+		-webkit-animation-timing-function:  linear;
+		-webkit-animation-iteration-count: infinite;
+		-webkit-animation-direction: alternate;
+
+		-moz-animation-name: animacao3;
+		-moz-animation-duration: 0.15s;
+		-moz-animation-timing-function:  linear;
+		-moz-animation-iteration-count: infinite;
+		-moz-animation-direction: alternate;
+
+		animation-name: animacao3;
+		animation-duration: 0.15s;
+		animation-timing-function:  linear;
+		animation-iteration-count: infinite;
+		animation-direction: alternate;}

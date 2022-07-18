@@ -1,0 +1,57 @@
+.example-mark {
+  width: 22px;
+  height: 22px;
+  border: 2px solid rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  
+  cursor: pointer;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin: 0px calc(12px);
+  bottom: calc(50% - 6px);
+}
+
+.example-mark.example-mark-active {
+  border: 2px solid #010707;
+  background-color: rgb(255, 255, 255);
+}
+
+.example-mark.example-mark-completed {
+  border: 2px solid rgb(255, 255, 255);
+  background-color: #00d4ff;
+}
+
+.example-thumb {
+  font-size: 0.9em;
+  text-align: center;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.example-thumb.active {
+  background-color: grey;
+}
+
+.example-track {
+  position: relative;
+  background: #ddd;
+  width: 70px;
+}
+
+.example-track.example-track-0 {
+  background: #00d4ff;
+}
+
+.vertical-slider .example-thumb {
+  left: 1px;
+  width: 48px;
+  line-height: 40px;
+  height: 10px;
+}
+
+.vertical-slider .example-track {
+  left: 23px;
+  width: 3px;
+}

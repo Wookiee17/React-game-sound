@@ -1,0 +1,27 @@
+
+
+.container {
+  width: 25%;
+  
+}
+
+.form-container {
+  width: 0%;
+  
+}
+
+.steps-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.steps-item {
+  padding: 5px;
+  min-height: 80px;
+}
+
+.vertical-slider {
+  height: 400px;
+  width: 35%;
+  /* border: 1px solid grey; */
+}
